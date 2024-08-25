@@ -13,6 +13,12 @@ You need to have ROS installed on your system. If you haven't installed ROS yet,
 2. Choose the appropriate ROS distribution for your operating system (e.g., Melodic, Noetic).
 3. Follow the installation instructions provided on the ROS website for your specific OS.
 
+
+-edit-
+
+If you using ROS Noetic, you need to change '#!/usr/bin/env python' to '#!/usr/bin/env python3' in the python files
+
+
 And also install the following
 ```shell
 sudo apt-get install ros-${ROS_DISTRO}-rosserial-arduino
